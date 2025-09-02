@@ -4,6 +4,10 @@ public class Main {
     public static void main(String[] args){
         Cliente cliente1= new Cliente("Eduardo",23874328);
         CuentaBancaria cuenta1 = new CuentaBancaria(2834634,cliente1,10000);
+        
+    Cliente cliente2 = new Cliente("Nano",8277468);
+
+    CuentaBancaria cuenta2 = new CuentaBancaria(123,new Cliente("juan Perez",234),1200);
 
     }
 
